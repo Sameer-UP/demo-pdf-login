@@ -3,7 +3,7 @@ function showLogin() {
     app.innerHTML = `
       <div class="login-container">
         <form class="login-form" id="loginForm">
-          <h2>PDF Viewer Login</h2>
+          <h2>Login</h2>
           <div class="form-group">
             <label for="username">Username</label>
             <input type="text" placeholder="Enter username" id="username" required>

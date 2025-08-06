@@ -2,7 +2,7 @@ function showDashboard() {
     const app = document.getElementById('app');
     app.innerHTML = `
       <div class="dashboard-header">
-        <h2>Your PDF Documents</h2>
+        <h2>Documents Dashboard</h2>
         <button class="logout-btn" onclick="showLogin()">Logout</button>
       </div>
       <div class="cards" id="cardGrid"></div>
